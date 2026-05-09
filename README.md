@@ -83,25 +83,6 @@ Analysis of B3PPs revealed distinct compositional signatures:
 * External validation on held-out 20% test set
 * Metrics reported: Sensitivity, Specificity, Accuracy, AUROC, MCC
 
-
-### Comparison with Existing Method
-
-| Feature | BBPpred (Dai et al., 2021) | B3Pred (This Study) |
-|---|---|---|
-| Training size | 100 B3PPs + 100 non-B3PPs | 269 B3PPs + up to 2690 non-B3PPs |
-| Test size | 19 B3PPs + 19 non-B3PPs | 20% of three full datasets |
-| Best AUROC | 0.87 | **0.93** |
-| Modules | Prediction only | Predict + Design + Scan |
-| Standalone software | No | **Yes** |
-
-
-### Limitations
-
-* Peptide length restricted to 6–30 amino acid residues
-* Models trained on experimentally validated B3PPs only; novel or synthetic sequences may require further experimental validation
-* Negative datasets rely on random sampling from Swiss-Prot; true negatives are not experimentally confirmed non-B3PPs
-
-
 ## Applications
 
 * CNS drug delivery research
@@ -120,9 +101,6 @@ http://webs.iiitd.edu.in/raghava/
 
 Developed at the Department of Computational Biology,
 Indraprastha Institute of Information Technology (IIIT Delhi), India
-
-**Contributing Authors:**
-Vinod Kumar, Sumeet Patiyal, Anjali Dhall, Neelam Sharma
 
 
 ## License
