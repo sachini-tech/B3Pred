@@ -4,6 +4,8 @@ Welcome to the official repository for B3Pred, a machine-learning-based method f
 
 Web Server: https://webs.iiitd.edu.in/raghava/b3pred/
 
+ZENODO : https://doi.org/10.5281/zenodo.20093418
+
 ## Citation
 
 Kumar, V., Patiyal, S., Dhall, A., Sharma, N., & Raghava, G. P. S. (2021).
